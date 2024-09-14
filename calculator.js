@@ -18,6 +18,8 @@ function subtract(a, b) {
 function divide(a, b) {
   if (b === 0) {
     return "Error: Division by zero";
+  }if (a === 0) {
+    return 0;
   }
   return a / b;
 }
