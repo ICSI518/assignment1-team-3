@@ -13,6 +13,8 @@ function subtract(a, b) {
   if (a < b) { 
     return "You will get a negative number";
   }
+  if(b == 0)
+    return a;  
   return a - b;
 }
 
