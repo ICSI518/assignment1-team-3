@@ -1,9 +1,10 @@
 /// Function to multiply two numbers
 function multiply(a, b) {
-  if(a==0){
-    return "error";
-  }
+  if(a != 0){
    return a * b;
+  }
+  return 0;
+
 }
 
 // Function to add two numbers
