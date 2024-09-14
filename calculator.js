@@ -10,6 +10,9 @@ function add(a, b) {
 
 // Function to subtract two numbers
 function subtract(a, b) {
+  if (a < b) { 
+    return "You will get a negative number";
+  }
   return a - b;
 }
 
